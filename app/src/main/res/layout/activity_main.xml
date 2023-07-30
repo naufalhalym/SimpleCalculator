@@ -14,7 +14,7 @@
         android:layout_weight="1"
         android:gravity="bottom"
         android:padding="30dp"
-        android:background="@color/io_background"
+        android:background="@color/window_background"
         android:orientation="vertical">
 
         <TextView
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:gravity="end"
             android:textSize="50sp"
-            android:textColor="@color/green"
+            android:textColor="@color/orange"
             tools:text="12" />
 
     </LinearLayout>
@@ -49,11 +49,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 style="@style/Button_Style"
-                android:text="C" />
+                android:text="C"
+                android:textColor="@color/black"
+                android:background="@color/gray"/>
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button_bracket_left"
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
+                android:textColor="@color/black"
+                android:background="@color/gray"
                 style="@style/Button_Style"
                 android:text="(" />
             <androidx.appcompat.widget.AppCompatButton
@@ -61,12 +65,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 style="@style/Button_Style"
+                android:background="@color/gray"
+                android:textColor="@color/black"
                 android:text=")" />
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button_division"
-                android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 style="@style/Button_Style"
+                android:background="@color/orange"
                 android:text="÷" />
 
         </TableRow>
@@ -96,6 +102,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 style="@style/Button_Style"
+                android:background="@color/orange"
                 android:text="×" />
 
         </TableRow>
@@ -124,6 +131,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 style="@style/Button_Style"
+                android:background="@color/orange"
                 android:text="-" />
 
         </TableRow>
@@ -152,6 +160,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="90dp"
                 style="@style/Button_Style"
+                android:background="@color/orange"
                 android:text="+" />
 
         </TableRow>
@@ -159,23 +168,23 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button_0"
-                android:layout_width="wrap_content"
-                android:layout_height="90dp"
+                android:layout_width="3dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
                 style="@style/Button_Style"
                 android:text="0" />
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button_dot"
                 android:layout_width="wrap_content"
-                android:layout_height="90dp"
+                android:layout_height="70dp"
                 style="@style/Button_Style"
                 android:text="." />
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button_equals"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="90dp"
-                android:layout_weight="1"
                 style="@style/Button_Style"
-                android:background="@color/green"
+                android:background="@color/orange"
                 android:text="=" />
 
         </TableRow>
